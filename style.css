@@ -1,0 +1,30 @@
+body{
+    display: flex; 
+    flex-direction: column;
+    margin-left:auto;
+    margin-right: auto; 
+    max-width: 90%
+}
+a, a:visited{
+    text-decoration-line: none;
+    text-decoration: none;
+    color:white;
+}
+
+header{
+    background-color: #333;
+    color: red !important;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0%;
+    margin: 0px;
+    /* background-color: #360; */
+}
+
